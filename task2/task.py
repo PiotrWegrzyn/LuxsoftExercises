@@ -1,3 +1,6 @@
+# pessimistic time complexity should be n ^ 2, optimistic can be average should be log(n)
+
+
 def have_intersection(a, b):
     if a[0] > b[1] or a[1] < b[0]:
         return False

@@ -5,6 +5,8 @@
 # if all iterations fail return false
 
 
+# pessimistic time complexity should be n ^ n but optimistic can be n
+
 def preprocess(tokens):
     return set(tokens)   # this will prune out duplicates
 
